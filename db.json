@@ -1,0 +1,66 @@
+{
+	"projeto": [
+		{ "id": 1, "titulo": "Desenvolver sistema gestão de vendedores", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "editando", "valor_beneficio": 5000.00, "justificativa": "Aumento da eficiência da gestão de vendedores" },
+		{ "id": 2, "titulo": "Melhoria acesso mercadorias estoque", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "editando", "valor_beneficio": 5000.00, "justificativa": "acelera tempo entrega produtos, gerando satisfação clientes, aumento vendas" },
+		{ "id": 3, "titulo": "Fidelizacao Clientes", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "aguardando aprovação", "valor_beneficio": 50000.00, "justificativa": "aumenta faturamento mensal" },
+		{ "id": 4, "titulo": "dev. Produto XPTO", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "aprovado", "valor_beneficio": 10000.00, "justificativa": "novo proudto inédito, inovador, futura fonte de receitas"  },
+		{ "id": 5, "titulo": "dev. Sugestão de Vendas automatizada", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "executando", "valor_beneficio": 10000.00, "justificativa": "aumenta vendas/faturamento sobre base atual de clientes, aumenta desemp. futuro vendas empresa"  },
+		{ "id": 6, "titulo": "Treinamento Vendedores", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "pausado", "valor_beneficio": 10000.00, "justificativa": "aumenta capacidade de vendas/faturamento empresa, participação no mercado, fidelização clientes"  },
+		{ "id": 7, "titulo": "Cabeamento Estruturado", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "cancelado", "valor_beneficio": 10000.00, "justificativa": "melhora disponibilidade da rede interna (velocidade acesso)"  },
+		{ "id": 8, "titulo": "Vacinação COVID", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "encerrado", "valor_beneficio": 10000.00, "justificativa": "saúde, bem estar, frequência presencial"  }
+	],
+	"pacotes_trabalho": [
+		{ "id": 1, "projeto": 1, "titulo": "cadastro vendedor", "descrição": "o gerente de vendas deve ser capaz de cadastrar novos vendedores, bem como manter as informações necessárias", "valor_benefício_estimado": 0.00 },
+		{ "id": 1, "projeto": 1, "titulo": "definição de metas mensais de cada vendedor", "descrição": "o gerente de vendas deve ser capaz de cadastrar novos vendedores, bem como manter as informações necessárias", "valor_benefício_estimado": 0.00 },
+		{ "id": 1, "projeto": 1, "titulo": "consulta produtividade vendas mensais de cada vendedor", "descrição": "o gerente de vendas deve ser capaz de cadastrar novos vendedores, bem como manter as informações necessárias", "valor_benefício_estimado": 0.00 },
+		{ "id": 1, "projeto": 1, "titulo": "consulta percentual de clientes da área trabalhados pelo vendedor", "descrição": "o gerente de vendas deve ser capaz de cadastrar novos vendedores, bem como manter as informações necessárias", "valor_benefício_estimado": 0.00 },
+		{ "id": 1, "projeto": 1, "titulo": "consulta ranking melhores vendedores mês", "descrição": "o gerente de vendas deve ser capaz de cadastrar novos vendedores, bem como manter as informações necessárias", "valor_benefício_estimado": 0.00 }
+	],
+	"atividades": [
+		{ "id": 1, "projeto": 1, "pacote": 1, "titulo": "reunião com o usuário ou P.O. para desenhar solução",	"tempo_horas_uteis": 6, "inicio": "2022/04/01", "orientacoes": "" },
+		{ "id": 2, "projeto": 1, "pacote": 1, "titulo": "criar casos de uso", 					"tempo_horas_uteis": 2, "inicio": "2022/04/02", "orientacoes": "" },
+		{ "id": 3, "projeto": 1, "pacote": 1, "titulo": "criar api serviço consulta",				"tempo_horas_uteis": 2, "inicio": "2022/04/03", "orientacoes": "" },
+		{ "id": 4, "projeto": 1, "pacote": 1, "titulo": "criar api serviço persistência", 			"tempo_horas_uteis": 2, "inicio": "2022/04/04", "orientacoes": "" },
+		{ "id": 5, "projeto": 1, "pacote": 1, "titulo": "melhorar a Interface usuário (UI, UX)", 		"tempo_horas_uteis": 6, "inicio": "2022/04/05", "orientacoes": "" },
+		{ "id": 6, "projeto": 1, "pacote": 1, "titulo": "criar tabela banco de dados", 				"tempo_horas_uteis": 1, "inicio": "2022/04/08", "orientacoes": "" },
+		{ "id": 7, "projeto": 1, "pacote": 1, "titulo": "homologação interna", 					"tempo_horas_uteis": 6, "inicio": "2022/04/09", "orientacoes": "" },
+		{ "id": 8, "projeto": 1, "pacote": 1, "titulo": "aceitação junto com o usuário", 			"tempo_horas_uteis": 2, "inicio": "2022/04/10", "orientacoes": "" }
+	], 
+	"atividade_recursos": [
+		{ "id":  1, "atividade":  1, "funcionario": 20, "outros_recursos": "datashow, sala de reuniões, especialista da área, café, água, biscoito", "outros_custos":		40.00, "obs": "especialista da área é o gerente de vendas"  },
+		{ "id":  2, "atividade":  1, "funcionario":  1, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id":  3, "atividade":  1, "funcionario":  2, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id":  4, "atividade":  1, "funcionario":  3, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id":  5, "atividade":  1, "funcionario":  4, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id":  6, "atividade":  1, "funcionario":  5, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id":  7, "atividade":  1, "funcionario":  6, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id":  8, "atividade":  2, "funcionario":  1, "outros_recursos": "", "outros_custos":		0.00, "obs": "reponsável por modelagem de processos da empresa"  },
+		{ "id":  9, "atividade":  3, "funcionario":  2, "outros_recursos": "", "outros_custos":		0.00, "obs": "dev para api serviço"  },
+		{ "id": 10, "atividade":  4, "funcionario":  3, "outros_recursos": "", "outros_custos":		0.00, "obs": "dev para api serviço"  },
+		{ "id": 11, "atividade":  5, "funcionario":  4, "outros_recursos": "", "outros_custos":		0.00, "obs": "dev para UI e UX"  },
+		{ "id": 12, "atividade":  6, "funcionario":  5, "outros_recursos": "", "outros_custos":		0.00, "obs": "AD/DBA (reponsável pelas info/bancos)"  },
+		{ "id": 13, "atividade":  7, "funcionario":  6, "outros_recursos": "", "outros_custos":		0.00, "obs": "reponsável por QA"  },
+		{ "id": 14, "atividade":  8, "funcionario":  1, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id": 15, "atividade":  8, "funcionario":  2, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id": 16, "atividade":  8, "funcionario":  3, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id": 17, "atividade":  8, "funcionario":  4, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id": 18, "atividade":  8, "funcionario":  5, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id": 19, "atividade":  8, "funcionario":  6, "outros_recursos": "", "outros_custos":		0.00, "obs": ""  },
+		{ "id": 20, "atividade":  8, "funcionario": 20, "outros_recursos": "datashow, sala de reuniões, especialista da área, café, água, biscoito", "outros_custos":		20.00, "obs": ""  }
+	],
+	"atividades_executadas": [
+		{ "id": 1, "atividade": 1, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado": 100.00, "perc_gasto": 100.00, "estado": "pronta", "obs": "top, finalizado" },
+		{ "id": 2, "atividade": 2, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado": 100.00, "perc_gasto":  90.00, "estado": "pronta", "obs": "top, economizou" },
+		{ "id": 3, "atividade": 3, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":  90.00, "perc_gasto": 100.00, "estado": "terminando", "obs": "já,já termina, final" },
+		{ "id": 4, "atividade": 4, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   5.00, "perc_gasto":  50.00, "estado": "iniciada", "obs": "começou agora" },
+		{ "id": 5, "atividade": 5, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":  50.00, "estado": "cancelada", "obs": "desistência do usuário" },
+		{ "id": 6, "atividade": 6, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":  30.00, "perc_gasto": 120.00, "estado": "atraso", "obs": "errou, vai refazer" },
+		{ "id": 7, "atividade": 7, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":   0.00, "estado": "esperando", "obs": "" },
+		{ "id": 8, "atividade": 8, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":   0.00, "estado": "esperando", "obs": "" }
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+
