@@ -49,14 +49,14 @@
 		{ "id": 20, "atividade":  8, "funcionario": 20, "outros_recursos": "datashow, sala de reuniões, especialista da área, café, água, biscoito", "outros_custos":		20.00 }
 	],
 	"atividades_executadas": [
-		{ "id": 1, "atividade": 1, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado": 100.00, "perc_gasto": 100.00, "estado": "pronta", "obs": "top, finalizado" },
-		{ "id": 2, "atividade": 2, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado": 100.00, "perc_gasto":  90.00, "estado": "pronta", "obs": "top, economizou" },
-		{ "id": 3, "atividade": 3, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":  90.00, "perc_gasto": 100.00, "estado": "terminando", "obs": "já,já termina, final" },
-		{ "id": 4, "atividade": 4, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   5.00, "perc_gasto":  50.00, "estado": "iniciada", "obs": "começou agora" },
-		{ "id": 5, "atividade": 5, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":  50.00, "estado": "cancelada", "obs": "desistência do usuário" },
-		{ "id": 6, "atividade": 6, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":  30.00, "perc_gasto": 120.00, "estado": "atraso", "obs": "errou, vai refazer" },
-		{ "id": 7, "atividade": 7, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":   0.00, "estado": "esperando", "obs": "" },
-		{ "id": 8, "atividade": 8, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":   0.00, "estado": "esperando", "obs": "" }
+		{ "id": 1, "atividade": 1, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto": 100.00, "estado": "pronta"	},
+		{ "id": 2, "atividade": 2, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto":  90.00, "estado": "pronta"	},
+		{ "id": 3, "atividade": 3, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto": 100.00, "estado": "terminando"	},
+		{ "id": 4, "atividade": 4, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto":  50.00, "estado": "iniciada"	},
+		{ "id": 5, "atividade": 5, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto":  50.00, "estado": "cancelada"	},
+		{ "id": 6, "atividade": 6, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto": 120.00, "estado": "atraso"	},
+		{ "id": 7, "atividade": 7, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto":   0.00, "estado": "esperando"	},
+		{ "id": 8, "atividade": 8, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto":   0.00, "estado": "esperando"	}
 	],
 	"profile": {
 	    "name": "typicode"
