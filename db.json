@@ -1,13 +1,13 @@
 {
 	"projeto": [
-		{ "id": 1, "titulo": "Desenvolver sistema gestão de vendedores", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "editando", "valor_beneficio": 5000.00, "justificativa": "Aumento da eficiência da gestão de vendedores" },
-		{ "id": 2, "titulo": "Melhoria acesso mercadorias estoque", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "editando", "valor_beneficio": 5000.00, "justificativa": "acelera tempo entrega produtos, gerando satisfação clientes, aumento vendas" },
-		{ "id": 3, "titulo": "Fidelizacao Clientes", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "aguardando aprovação", "valor_beneficio": 50000.00, "justificativa": "aumenta faturamento mensal" },
-		{ "id": 4, "titulo": "dev. Produto XPTO", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "aprovado", "valor_beneficio": 10000.00, "justificativa": "novo proudto inédito, inovador, futura fonte de receitas"  },
-		{ "id": 5, "titulo": "dev. Sugestão de Vendas automatizada", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "executando", "valor_beneficio": 10000.00, "justificativa": "aumenta vendas/faturamento sobre base atual de clientes, aumenta desemp. futuro vendas empresa"  },
-		{ "id": 6, "titulo": "Treinamento Vendedores", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "pausado", "valor_beneficio": 10000.00, "justificativa": "aumenta capacidade de vendas/faturamento empresa, participação no mercado, fidelização clientes"  },
-		{ "id": 7, "titulo": "Cabeamento Estruturado", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "cancelado", "valor_beneficio": 10000.00, "justificativa": "melhora disponibilidade da rede interna (velocidade acesso)"  },
-		{ "id": 8, "titulo": "Vacinação COVID", "gerente": 3, "dt_inicio": "2022/04/01", "dt_termino": "2022/04/02", "ccusto": 101, "planejado": 0.00, "agregado": 0.00, "realizado": 0.00, "reserva_gerencial": 1000.00, "reserva_riscos": 1000.00, "estado": "encerrado", "valor_beneficio": 10000.00, "justificativa": "saúde, bem estar, frequência presencial"  }
+		{ "id": 1, "titulo": "Desenvolver sistema gestão de vendedores",	 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "editando"		},
+		{ "id": 2, "titulo": "Melhoria acesso mercadorias estoque",		 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "editando"		},
+		{ "id": 3, "titulo": "Fidelizacao Clientes",				 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "aguardando"	},
+		{ "id": 4, "titulo": "dev. Produto XPTO",				 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "aprovado"		},
+		{ "id": 5, "titulo": "dev. Sugestão de Vendas automatizada",		 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "executando"	},
+		{ "id": 6, "titulo": "Treinamento Vendedores",				 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "pausado"		},
+		{ "id": 7, "titulo": "Cabeamento Estruturado",				 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "cancelado"	},
+		{ "id": 8, "titulo": "Vacinação COVID",					 "dt_inicio": "2022/04/01", "ccusto": 101, "estado": "encerrado"	}
 	],
 	"pacotes_trabalho": [
 		{ "id": 1, "projeto": 1, "titulo": "cadastro vendedor", "descrição": "o gerente de vendas deve ser capaz de cadastrar novos vendedores, bem como manter as informações necessárias", "valor_benefício_estimado": 0.00 },
