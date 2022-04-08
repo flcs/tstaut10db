@@ -57,10 +57,7 @@
 		{ "id": 6, "atividade": 6, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":  30.00, "perc_gasto": 120.00, "estado": "atraso", "obs": "errou, vai refazer" },
 		{ "id": 7, "atividade": 7, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":   0.00, "estado": "esperando", "obs": "" },
 		{ "id": 8, "atividade": 8, "dthr_inicio": "2022/04/01 09:00:01", "dthr_termino": "2022/04/01 09:00:02", "perc_agregado":   0.00, "perc_gasto":   0.00, "estado": "esperando", "obs": "" }
-	],
-	"profile": {
-	    "name": "typicode"
-	}
+	]
 }
 
 
