@@ -57,9 +57,6 @@
 		{ "id": 6, "atividade": 6, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto": 120.00, "estado": "atraso"	},
 		{ "id": 7, "atividade": 7, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto":   0.00, "estado": "esperando"	},
 		{ "id": 8, "atividade": 8, "dthr_inicio": "2022/04/01 09:00:01",  "perc_gasto":   0.00, "estado": "esperando"	}
-	],
-	"profile": {
-	    "name": "typicode"
 	}
 }
 
